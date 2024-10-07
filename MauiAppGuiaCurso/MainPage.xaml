@@ -30,6 +30,9 @@
               ColumnDefinitions="*"
               RowSpacing="1" ColumnSpacing="3" Margin="10">
 
+            <Label Grid.Row="0" Grid.Column="0" x:Name="titulo" Text="Conheça mais sobre o curso Desenvolvimento de Sitemas e suas matérias"
+                   HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black" FontSize="30" FontFamily=""/>
+
             <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource Botao}" x:Name="primeiro" Text="Primeiro" Clicked="primeiro_Clicked" />
             <Button Grid.Row="2" Grid.Column="0" Style="{StaticResource Botao}" x:Name="segundo"  Text="Segundo" Clicked="segundo_Clicked" />
             <Button Grid.Row="3" Grid.Column="0" Style="{StaticResource Botao}" x:Name="terceiro" Text="Terceiro" Clicked="terceiro_Clicked" />

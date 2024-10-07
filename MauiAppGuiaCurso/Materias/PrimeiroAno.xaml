@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppGuiaCurso.Materias.PrimeiroAno"
+             Title="PrimeiroAno">
+
+    <VerticalStackLayout>
+        <ScrollView>
+            <Grid RowDefinitions="300, 300, 300"
+                  ColumnDefinitions="*, *, *"
+                  Padding="5">
+                
+                <Button Grid.Column="0" Grid.Row="0"  x:Name="btnWalle" Clicked="btnWalle_Clicked" />
+                <Button Grid.Column="1" Grid.Row="0"  x:Name="btnAguaabaixo" Clicked="btnAguaabaixo_Clicked" />
+                <Button Grid.Column="0" Grid.Row="1"  x:Name="btnLuca" Clicked="btnLuca_Clicked" />
+                <Button Grid.Column="1" Grid.Row="1"  x:Name="btnToystory" Clicked="btnToystory_Clicked" />
+                <Button Grid.Column="0" Grid.Row="2"  x:Name="btnLuca" Clicked="btnLuca_Clicked" />
+                <Button Grid.Column="1" Grid.Row="2"  x:Name="btnToystory" Clicked="btnToystory_Clicked" />
+
+            </Grid>
+        </ScrollView>
+    </VerticalStackLayout>
+</ContentPage>

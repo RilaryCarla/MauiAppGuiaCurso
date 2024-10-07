@@ -57,9 +57,118 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Grade\Algoritmo.xaml.cs" />
+	  <Compile Remove="Grade\Analise.xaml.cs" />
+	  <Compile Remove="Grade\BancoI.xaml.cs" />
+	  <Compile Remove="Grade\BancoII.xaml.cs" />
+	  <Compile Remove="Grade\DesignDigital.xaml.cs" />
+	  <Compile Remove="Grade\DS.xaml.cs" />
+	  <Compile Remove="Grade\Etica.xaml.cs" />
+	  <Compile Remove="Grade\Fundamentos.xaml.cs" />
+	  <Compile Remove="Grade\ipssi.xaml.cs" />
+	  <Compile Remove="Grade\MobileI.xaml.cs" />
+	  <Compile Remove="Grade\MobileII.xaml.cs" />
+	  <Compile Remove="Grade\SistemasEmbarcados.xaml.cs" />
+	  <Compile Remove="Grade\Software.xaml.cs" />
+	  <Compile Remove="Grade\TCC.xaml.cs" />
+	  <Compile Remove="Grade\WebI.xaml.cs" />
+	  <Compile Remove="Grade\WebII.xaml.cs" />
+	  <Compile Remove="Grade\WebIII.xaml.cs" />
+	  <Compile Remove="Materias\primeiro.xaml.cs" />
+	  <Compile Remove="Materias\segundo.xaml.cs" />
+	  <Compile Remove="Materias\terceiro.xaml.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Remove="Grade\Algoritmo.xaml" />
+	  <MauiXaml Remove="Grade\Analise.xaml" />
+	  <MauiXaml Remove="Grade\BancoI.xaml" />
+	  <MauiXaml Remove="Grade\BancoII.xaml" />
+	  <MauiXaml Remove="Grade\DesignDigital.xaml" />
+	  <MauiXaml Remove="Grade\DS.xaml" />
+	  <MauiXaml Remove="Grade\Etica.xaml" />
+	  <MauiXaml Remove="Grade\Fundamentos.xaml" />
+	  <MauiXaml Remove="Grade\ipssi.xaml" />
+	  <MauiXaml Remove="Grade\MobileI.xaml" />
+	  <MauiXaml Remove="Grade\MobileII.xaml" />
+	  <MauiXaml Remove="Grade\SistemasEmbarcados.xaml" />
+	  <MauiXaml Remove="Grade\Software.xaml" />
+	  <MauiXaml Remove="Grade\TCC.xaml" />
+	  <MauiXaml Remove="Grade\WebI.xaml" />
+	  <MauiXaml Remove="Grade\WebII.xaml" />
+	  <MauiXaml Remove="Grade\WebIII.xaml" />
+	  <MauiXaml Remove="Materias\primeiro.xaml" />
+	  <MauiXaml Remove="Materias\segundo.xaml" />
+	  <MauiXaml Remove="Materias\terceiro.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Grade\Algoritmo1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Grade\Analise1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Grade\BancoI1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Grade\BancoII2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Grade\DesignDigital1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Grade\DS2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Grade\Etica2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Grade\Fundamentos1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Grade\ipssi3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Grade\MobileI2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Grade\MobileII3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Grade\SistemasEmbarcados3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Grade\Software3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Grade\TCC3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Grade\WebI1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Grade\WebII2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Grade\WebIII3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Materias\PrimeiroAno.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Materias\SegundoAno.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Materias\TerceiroAno.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
