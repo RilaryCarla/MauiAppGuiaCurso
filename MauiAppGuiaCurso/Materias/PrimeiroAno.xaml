@@ -7,17 +7,17 @@
     <VerticalStackLayout>
         <ScrollView>
             <Grid RowDefinitions="300, 300, 300"
-                  ColumnDefinitions="*, *, *"
+                  ColumnDefinitions="*, *"
                   Padding="5">
-                
-                <Button Grid.Column="0" Grid.Row="0"  x:Name="btnWalle" Clicked="btnWalle_Clicked" />
-                <Button Grid.Column="1" Grid.Row="0"  x:Name="btnAguaabaixo" Clicked="btnAguaabaixo_Clicked" />
-                <Button Grid.Column="0" Grid.Row="1"  x:Name="btnLuca" Clicked="btnLuca_Clicked" />
-                <Button Grid.Column="1" Grid.Row="1"  x:Name="btnToystory" Clicked="btnToystory_Clicked" />
-                <Button Grid.Column="0" Grid.Row="2"  x:Name="btnLuca" Clicked="btnLuca_Clicked" />
-                <Button Grid.Column="1" Grid.Row="2"  x:Name="btnToystory" Clicked="btnToystory_Clicked" />
+                <Button Grid.Column="0" Grid.Row="0" x:Name="btnAlgoritmo"  Clicked="btnAlgoritmo_Clicked" />
+                <Button Grid.Column="1" Grid.Row="0" x:Name="btnAnalise" Clicked="btnAnalise_Clicked" />
+                <Button Grid.Column="0" Grid.Row="1" x:Name="btnBancoI" Clicked="btnBancoI_Clicked" />
+                <Button Grid.Column="1" Grid.Row="1" x:Name="btnDesign" Clicked="btnDesign_Clicked" />
+                <Button Grid.Column="0" Grid.Row="2" x:Name="btnFundamentos" Clicked="btnFundamentos_Clicked" />
+                <Button Grid.Column="1" Grid.Row="2" x:Name="btnWebI" Clicked="btnWebI_Clicked" />
 
             </Grid>
         </ScrollView>
     </VerticalStackLayout>
+
 </ContentPage>
